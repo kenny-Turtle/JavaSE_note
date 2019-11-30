@@ -12,6 +12,7 @@ public class test02 extends Object{
         Class c3 = Class.forName("com.zfj.reflection.User");
         System.out.println(c1);
 
+
         //一个类在内存中只有一个Class对象
         //一个类被加载后，类的整个结构都会被封装在Class对象中。
         System.out.println(c2.hashCode());

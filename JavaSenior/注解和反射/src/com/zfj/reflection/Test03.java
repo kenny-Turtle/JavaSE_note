@@ -25,7 +25,7 @@ public class Test03 {
 }
 
 class Person{
-    String name;
+    public String name;
 
     public Person() {
     }
